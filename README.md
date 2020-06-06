@@ -1,3 +1,4 @@
+[![Run on Repl.it](https://repl.it/badge/github/dhruvslg86/Amazon-Review-Sentiment-Analyzer)](https://repl.it/github/dhruvslg86/Amazon-Review-Sentiment-Analyzer)
 # Amazon Review Scraper using Selectorlib 
 
 A simple amazon scraper to extract product details and prices from Amazon.com using Python Requests and Selectorlib. 
