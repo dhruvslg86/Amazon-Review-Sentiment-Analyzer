@@ -1,6 +1,4 @@
-pip3 install selectorlib
-import requests
-import selectorlib
+
 
 from selectorlib import Extractor
 import requests 
@@ -54,7 +52,7 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
                     if 'Verified Purchase' in r['verified']:
                         r['verified'] = 'Yes'
                     else:
-                        r['verified'] = 'Yes'
+                        r['verified'] = 'No'
                 r['rating'] = r['rating'].split(' out of')[0]
                 date_posted = r['date'].split('on ')[-1]
                 if r['images']:

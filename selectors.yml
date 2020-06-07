@@ -7,27 +7,24 @@ reviews:
     multiple: true
     type: Text
     children:
-        reviewername:
-            css: div.a-profile-content
-            xpath: ""
-            type: Text
         rating:
             css: 'div.a-row > a.a-link-normal:nth-of-type(1)'
-            xpath: ""
             type: Text
-        reviewtitle:
+        title:
             css: 'a.a-size-base span'
-            xpath: ""
             type: Text
-        reviewdate:
+        date:
             css: span.a-size-base.a-color-secondary
-            xpath: ""
             type: Text
-        reviewtext:
+        content:
             css: 'div.a-row.a-spacing-small span.a-size-base span'
-            xpath: ""
             type: Text
-        reviewend:
-            css: 'span.a-declarative a.a-size-base'
-            xpath: ""
+        verified:
+            css: span.a-size-mini
             type: Text
+        author:
+            css: span.a-profile-name
+            type: Text
+next_page:
+    css: 'div.a-section.a-spacing-top-large a.a-size-base'
+    type: Link
