@@ -1,3 +1,7 @@
+pip3 install selectorlib
+import requests
+import selectorlib
+
 from selectorlib import Extractor
 import requests 
 import json 

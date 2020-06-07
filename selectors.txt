@@ -1,0 +1,33 @@
+product_title:
+    css: 'ul.a-unordered-list li:nth-of-type(1)'
+    multiple: true
+    type: Text
+reviews:
+    css: 'div#R10H0UP6PJ8HTM-review-card.a-row'
+    multiple: true
+    type: Text
+    children:
+        reviewername:
+            css: div.a-profile-content
+            xpath: ""
+            type: Text
+        rating:
+            css: 'div.a-row > a.a-link-normal:nth-of-type(1)'
+            xpath: ""
+            type: Text
+        reviewtitle:
+            css: 'a.a-size-base span'
+            xpath: ""
+            type: Text
+        reviewdate:
+            css: span.a-size-base.a-color-secondary
+            xpath: ""
+            type: Text
+        reviewtext:
+            css: 'div.a-row.a-spacing-small span.a-size-base span'
+            xpath: ""
+            type: Text
+        reviewend:
+            css: 'span.a-declarative a.a-size-base'
+            xpath: ""
+            type: Text
